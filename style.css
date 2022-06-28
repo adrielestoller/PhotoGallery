@@ -192,6 +192,39 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .title-user-name {
+    font-size: 1rem;
+  
+    color: var(--gray-primary);
+  }
+  
+  .text-user-location {
+    font-size: .8rem;
+  
+    color: var(--gray-secundary);
+  }
+
+  .social {
+    gap: .7rem;
+  }
+
+  .social-card {
+    width: 5rem;
+    padding: .3rem 0;
+    border-radius: .6rem;
+    text-align: center;
+  
+    background-color: var(--gray-box-primary);
+  }
+
+  .social-number {
+    font-size: .8rem;
+  }
+  
+  .social-title {
+    font-size: .7rem;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
